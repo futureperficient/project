@@ -1,0 +1,31 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "A Live Test Taking System developed using MEAN Stack.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js -e .html,.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yeswanth",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "express-sessions": "^1.0.6",
+    "jsonwebtoken": "^8.1.0",
+    "mongodb": "^3.5.2",
+    "mongoose": "^4.10.8",
+    "nodemailer": "^4.4.1",
+    "nodemon": "^2.0.2",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth2": "^0.1.6",
+    "random-number": "0.0.9",
+    "randomstring": "^1.1.5"
+  }
+}
